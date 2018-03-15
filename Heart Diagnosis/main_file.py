@@ -3,7 +3,7 @@ from keras.models import model_from_json
 from sklearn.externals import joblib
 import os
 import numpy as np
-app=Flask(__name__)
+app=Flask(__name__)#Shreyans Sonthalia
 disease=""
 
 
