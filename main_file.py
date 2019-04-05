@@ -32,7 +32,7 @@ def result():
 
     x = scaler.transform(x)
 
-    model_path = os.path.join(os.path.dirname(__file__), 'models/lin_svc.sav')
+    model_path = os.path.join(os.path.dirname(__file__), 'models/rfc.sav')
     clf = joblib.load(model_path)
 
     y = clf.predict(x)
